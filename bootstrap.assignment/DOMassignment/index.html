@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zephyr Club - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+</head>
+<body>
+<video autoplay muted loop id="bgVideo">
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+  <div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="contact.html">Contact</a>
+    <a href="form.html">Form</a>
+  </div>
+
+ <h1 id="greeting">Welcome to Zephyr Club!</h1>
+  <div id="output"></div>
+  <div id="extraOutput" style="margin-top:10px; color:blue;"></div>
+
+  <button onclick="askName()">Ask Name</button>
+  <button onclick="showStyles()">Show Dance Styles</button>
+  <button onclick="suggestPractice()">Suggest Practice Time</button>
+  <button  class="dance-style" onclick="changeStyleColor()">Change Style Colors</button>
+  <button onclick="clearOutput()">Clear Output</button>
+  
+
+ 
+ 
+  <p class="box text delay-1">Where Every Step Tells a Story </p>
+
+  <div class="about text delay-2">
+    <p>
+      Zephyr isn’t just a club — it’s a movement. We believe in bold expressions, raw passion, 
+      and unstoppable rhythm. Whether you’re a trained dancer or just have a love for music,
+      Zephyr is your stage.
+    </p>
+  </div>
+
+  <div class="moments text delay-3">
+    <h2>🎞️ Glimpse of Zephyr Moments</h2>
+    <div class="links">
+      <a href="https://www.instagram.com/vit_zephyr/reel/DEm9DZ4PRpd/">Moment 1</a>
+      <a href="https://www.instagram.com/vit_zephyr/p/DCy0JKjIKHe/">Moment 2</a>
+      <a href="https://www.instagram.com/vit_zephyr/reel/CILhsIBD177/">Moment 3</a>
+    </div>
+  </div>
+  <div class="interactive text delay-4" style="margin-top: 30px;">
+   
+  
+    
+    <div id="extraOutput" style="margin-top: 20px; font-size: 18px;"></div>
+  </div>
+  
+
+  <div class="join text delay-4">
+    <h2> Ready to Dance with Us?</h2>
+    <p>Explore our latest <a href="events.html">events</a> and <a href="contact.html">connect with the team</a>.</p>
+    <p>Auditions coming soon. Keep an eye on our socials!</p>
+  </div>
+
+  <footer class="text delay-5">
+    <h3>Thank You for Visiting Zephyr 💙</h3>
+    <p>~ Feel the Beat, Join the Vibe ~</p>
+  </footer>
+</body>
+</html>

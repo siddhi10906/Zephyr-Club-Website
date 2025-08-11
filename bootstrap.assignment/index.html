@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zephyr Club - Home</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<video autoplay muted loop id="bgVideo">
+  <source src="video.mp4" type="video/mp4">
+</video>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" >Zephyr Club</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> 
+        <li class="nav-item"><a class="nav-link" href="form.html">Form</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <h1 id="greeting" class="text-center">Welcome to Zephyr Club!</h1>
+  <div id="output" class="my-3 p-3 border rounded bg-light"></div>
+  <div id="extraOutput" class="mb-3 text-primary"></div>
+
+  <div class="d-grid gap-2 d-md-block text-center">
+    <button id="askNameBtn" class="btn btn-primary m-1">Ask Name</button>
+    <button id="showStylesBtn" class="btn btn-success m-1">Show Dance Styles</button>
+    <button id="suggestPracticeBtn" class="btn btn-warning m-1">Suggest Practice Time</button>
+    <button id="changeColorBtn" class="btn btn-info m-1">Change Style Colors</button>
+
+    <button id="clearOutputBtn" class="btn btn-danger m-1">Clear Output</button>
+  </div>
+</div>
+
+
+<div class="container mt-5">
+  <p class="box text delay-1 fs-4 text-center">Where Every Step Tells a Story</p>
+  <div class="about text delay-2">
+    <p class="lead">
+      Zephyr isn’t just a club — it’s a movement. We believe in bold expressions, raw passion,
+      and unstoppable rhythm. Whether you’re a trained dancer or just have a love for music,
+      Zephyr is your stage.
+    </p>
+  </div>
+</div>
+
+
+<div class="moments text delay-3 container mt-4">
+  <h2>🎞️ Glimpse of Zephyr Moments</h2>
+  <div class="links">
+    <a href="https://www.instagram.com/vit_zephyr/reel/DEm9DZ4PRpd/" class="btn btn-outline-primary m-1">Moment 1</a>
+    <a href="https://www.instagram.com/vit_zephyr/p/DCy0JKjIKHe/" class="btn btn-outline-primary m-1">Moment 2</a>
+    <a href="https://www.instagram.com/vit_zephyr/reel/CILhsIBD177/" class="btn btn-outline-primary m-1">Moment 3</a>
+  </div>
+</div>
+
+
+<div class="join text delay-4 container mt-4">
+  <h2>Ready to Dance with Us?</h2>
+  <p>Explore our latest <a href="events.html">events</a> and <a href="contact.html">connect with the team</a>.</p>
+  <p>Auditions coming soon. Keep an eye on our socials!</p>
+</div>
+
+
+<footer class="text-center text delay-5 p-3-light mt-5">
+  <h3>Thank You for Visiting Zephyr 💙</h3>
+  <p>~ Feel the Beat, Join the Vibe ~</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 0.25; /* Optional: makes content more readable */
+}
+
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0A0F1D;
+    color: white;
+    
+  }
+  
+  
+   .navbar {
+    background-color: #112240;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+    
+  } 
+  
+   .navbar a {
+    color: #00D9FF;
+    text-decoration: none;
+    font-size: 16px;
+    
+  }
+  
+  .select {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .box {
+    text-align: center;
+    font-size: 20px;
+  }
+ 
+  .about, .moments, .join {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .about p {
+    width: 70%;
+     margin: 20px auto; 
+    font-size: 16px;
+  }
+  
+  .moments .links {
+    display:flex ;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .moments a, .join a {
+    color: #00D9FF;
+    text-decoration: none;
+  }
+  
+  
+  
+  .join {
+    background-color: #1E293B;
+    padding: 30px 20px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 40px auto;
+  }
+  
+  footer {
+    background-color: #112240;
+    height: 80px;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 40px;
+  }
+  
+  .text {
+    opacity:0 ;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  .delay-1 { animation-delay: 0.3s; }
+  .delay-2 { animation-delay: 0.6s; }
+  .delay-3 { animation-delay: 0.9s; }
+  .delay-4 { animation-delay: 1.2s; }
+  .delay-5 { animation-delay: 1.5s; }
+  
+   @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .select {
+      font-size: 36px;
+    }
+    .about p {
+      width: 90%;
+    }
+    
+  }
+  body > *:not(video) {
+  position: relative;
+  z-index: 1;
+}
+
+   
